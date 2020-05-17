@@ -7,10 +7,14 @@ var activeQuestion = document.querySelector('#activeQuestion');
 var quizForm = document.querySelector('#quizForm')
 var mainQuiz = document.querySelectorAll('.mainQuiz')
 var questCounter = 0 //counts the amount of questions
+
+//Scoring variables
 var scoreNum = 0
 var score = document.querySelector('#score')
 score.innerHTML = 0 // shows the number at the beginning of the Quiz
+//End of Scoring 
 questNumber.innerHTML = "This is another test"
+
 var mainQList = [] // Main list of questions
 var questionsAsked = []
 var starter = document.querySelector('#start')
@@ -34,13 +38,19 @@ keepGoing.addEventListener("click", function(evt) {
 })
 
 //Beginning panel
-starter.addEventListener("click", function(evt) {
-    evt.preventDefault();
-    startPanel.style.display = "none"
+// starter.addEventListener("click", function(evt) {
+//     evt.preventDefault();
+//     startPanel.style.display = "none"
+//     mainQuiz[0].style.display = "block"
+//     mainQuiz[1].style.display = "block"
+//     displayQuiz()
+// })
+
+function startGame(){
     mainQuiz[0].style.display = "block"
     mainQuiz[1].style.display = "block"
     displayQuiz()
-})
+}
 
 class QuestionMaker {
     constructor(question, option1, option2, option3, realAnswer, score) {
@@ -189,3 +199,5 @@ quizForm.addEventListener("submit", function(evt) {
     newQuestion = questionsAsked[questCounter]
 
 })
+
+startGame()
