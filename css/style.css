@@ -1,32 +1,58 @@
 /* $enable-gradients: true; */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap';
+
 .card {
     box-shadow: 5px 10px 10px black;
 }
 
 .mainBackground {
-    /* // background-size: contain; */
-    background-image: url("../img/background_1.jpg");
+    background-image: url("../img/mainbackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
+
 }
+
+.intro {
+    display: flex;
+    /* flex-direction: column; */
+
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    /* min-height: 90%; */
+}
+
+.intro h1 {
+    color:white;
+    margin-top: -35px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 3px;
+    /* font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+}
+.mainBackground img {
+    width: 60vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
 
 .nodeco {
     text-decoration: none;
     text-transform: capitalize;
-    padding: 70px;
-    /* // height: 150px;
-    // width: 150px; */
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 50%;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    padding: 20px;
+    font-weight: 400;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+    font-size: 15px;
+
+    /* border-radius: 50%; */
+    /* font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif */
 }
 
-/* // .designerBack {
-//     background-image: url("../img/daryan-shamkhali-52935-unsplash.jpg")
-// } */
 #questNumber {
     color: red;
     font-weight: 600;
@@ -36,10 +62,62 @@
     box-shadow: 5px 10px 10px black;
 }
 
-/* // .rounders {
-//     height: 100px;
-//     width: 100px;
-//     border-radius: 50%;
-// }
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-// @import "../../node_modules/bootstrap/scss/bootstrap.scss"; */
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: 3px;
+
+}
+
+
+.btn-two {
+	color: #FFF;
+	transition: all 0.5s;
+    position: relative;	
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+}
+.btn-two span {
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+.btn-two::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(255, 255, 255, 0.541);
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(255,255,255,0.541);
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}

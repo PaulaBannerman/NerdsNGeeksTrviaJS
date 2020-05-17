@@ -112,14 +112,7 @@ a {
     text-transform: uppercase;
 }
 
-.mainBackground {
-    /* // background-size: contain; */
-    background-image: url("../img/background_1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-}
+
 
 .designerBack {
     background: linear-gradient(271deg, #551589, #831589, #b70825, #f77307);
