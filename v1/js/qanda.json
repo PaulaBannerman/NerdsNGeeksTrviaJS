@@ -1,0 +1,265 @@
+[
+  {
+     "Question":"Where does Spongebob Squarepants work?"
+    ,"Option1":"The Krusty Krab"
+    ,"Option2":"Red Lobster"
+    ,"Option3":"The Chum Bucket"
+    ,"Answer":"Krusty Crab"
+    ,"Score": 20
+  },
+  {
+     "Question":"Who was the captain of the Enterprise in the pilot episode of Star Trek?"
+    ,"Option1":"Captain Kirk"
+    ,"Option2":"Captain Pike"
+    ,"Option3":"Captian Jones"
+    ,"Answer":"Captain Pike"
+    ,"Score": 45
+  },
+  {
+     "Question":"In the arcade game Joust, the player controls a knight riding what animal?"
+    ,"Option1":"Camel"
+    ,"Option2":"Ostrich"
+    ,"Option3":"Horse"
+    ,"Answer":"Ostrich"
+    ,"Score": 30
+  },
+  {
+     "Question":"The Connecticut Leather Company later became what toy company that was popular in the 1980s for its Cabbage Patch Kids and video game consoles?"
+    ,"Option1":"Cole"
+    ,"Option2":"LeCo"
+    ,"Option3":"Coleco"
+    ,"Answer":"Coleco"
+    ,"Score": 60
+  },
+  {
+     "Question":"What now retired NBA player starred in the 1996 movie Kazaam"
+    ,"Option1":"Sinbad"
+    ,"Option2":"Shaquille O’Neal"
+    ,"Option3":"Micheal Jordan"
+    ,"Answer":"Shaquille"
+    ,"Score": 25
+  },
+  {
+     "Question":"The first person shooter video game DOOM was first released in what year?"
+    ,"Option1":"1991"
+    ,"Option2":"1993"
+    ,"Option3":"1992"
+    ,"Answer":"1993"
+    ,"Score": 120
+  },
+  {
+     "Question":"Appearing on the show in 1982, who was the youngest person to ever host Saturday Night Live?"
+    ,"Option1":"Jodi Foster"
+    ,"Option2":"Drew Barrymore"
+    ,"Option3":"Brooke Shields"
+    ,"Answer":"Drew Barrymore"
+    ,"Score": 35
+  },
+  {
+     "Question":"What was the first publicly traded U.S. company to reach a $1 trillion market cap? "
+    ,"Option1":"Microsoft"
+    ,"Option2":"Facebook"
+    ,"Option3":"Apple"
+    ,"Answer":"Apple"
+    ,"Score": 25
+  },
+  {
+     "Question":"In what year did Nintendo release its first game console in North America?"
+    ,"Option1":"1985"
+    ,"Option2":"1986"
+    ,"Option3":"1987"
+    ,"Answer":"1985"
+    ,"Score": 35
+  },
+  {
+     "Question":"What heavy metal element was once known as quicksilver?"
+    ,"Option1":"Iron"
+    ,"Option2":"Mercury"
+    ,"Option3":"Nickel"
+    ,"Answer":"Mercury"
+    ,"Score": 30
+  },
+  {
+     "Question":"Orson Welles provided the voice for which Transformer in /"
+    ,"Option1":"Unicron"
+    ,"Option2":"Galvatron"
+    ,"Option3":"Optimus Prime"
+    ,"Answer":"Unicron"
+    ,"Score": 40
+  },
+  {
+     "Question":"What is the most abundant chemical element in the Universe?"
+    ,"Option1":"Hydrogen"
+    ,"Option2":"Oxygen"
+    ,"Option3":"Carbon"
+    ,"Answer":"Hydrogen"
+    ,"Score": 30
+  },
+  {
+     "Question":"What was the name of the Eminem single that set the world’s record in 2013 for the most words used in a song?"
+    ,"Option1":"Berzerk"
+    ,"Option2":"Loose Yourself"
+    ,"Option3":"Rap God"
+    ,"Answer":"Rap God"
+    ,"Score": 30
+  },
+  {
+     "Question":"The Star Trek episode \\"
+    ,"Option1":"Spock"
+    ,"Option2":"Uhura"
+    ,"Option3":"Scotty"
+    ,"Answer":"Spock"
+    ,"Score": 20
+  },
+  {
+     "Question":"In which film was the spaceship called Nostromo?"
+    ,"Option1":"2001: A Space Odyssey"
+    ,"Option2":"Alien"
+    ,"Option3":"Spaceballs"
+    ,"Answer":"Alien"
+    ,"Score": 230
+  },
+  {
+     "Question":"What is the registry number for the star ship Enterprise in the original series?"
+    ,"Option1":"NCC-1401"
+    ,"Option2":"NCC-1610"
+    ,"Option3":"NCC-1701"
+    ,"Answer":"NCC-1701"
+    ,"Score": 30
+  },
+  {
+     "Question":"What is Captain Kirk"
+    ,"Option1":"Tiberius"
+    ,"Option2":"Titus"
+    ,"Option3":"Thaddeus"
+    ,"Answer":"Tiberius"
+    ,"Score": 125
+  },
+  {
+     "Question":"Which of the following is not a name used to describe the stable wormhole on Deep Space Nine ?"
+    ,"Option1":"The Passageway"
+    ,"Option2":"The Galactic Vortex"
+    ,"Option3":"The Eye of the Universe"
+    ,"Answer":"The Galactic Vortex"
+    ,"Score": 30
+  },
+  {
+     "Question":"Head of Scientific Research at UNIT, this cunning lady has met The Doctor multiple times. She helped him deal with small black cubes, the Zygons and even the terrifying Daleks"
+    ,"Option1":"River Song"
+    ,"Option2":"Clara Oswald"
+    ,"Option3":"Kate Stewart"
+    ,"Answer":"Kate Stewart"
+    ,"Score": 30
+  },
+  {
+     "Question":"Who is the author of the book /“A Brief History of Time/”?"
+    ,"Option1":"Stephen Hawking"
+    ,"Option2":"Michio Kaku"
+    ,"Option3":"Lawrence M. Krauss"
+    ,"Answer":"Stephen Hawking"
+    ,"Score": 35
+  },
+  {
+     "Question":"Leonard Nimoy  provided the voice for which Transformer in “The Transformers: The Movie” released in 1986?"
+    ,"Option1":"Unicron"
+    ,"Option2":"Galvatron"
+    ,"Option3":"Optimus Prime"
+    ,"Answer":"Galvatron"
+    ,"Score": 40
+  },
+  {
+     "Question":"In the Harry Potter series, what is the name of Harry’s pet owl? "
+    ,"Option1":"Norbert"
+    ,"Option2":"Fawkes"
+    ,"Option3":"Hedwig"
+    ,"Answer":"Hedwig"
+    ,"Score": 30
+  },
+  {
+     "Question":"Which video game studio created the popular online game Fortnite?"
+    ,"Option1":"Sony"
+    ,"Option2":"Epic Games"
+    ,"Option3":"Bethesda"
+    ,"Answer":"Epic Games"
+    ,"Score": 30
+  },
+  {
+     "Question":"In 1975 an engineer created the first electronic camera while working for what company?"
+    ,"Option1":"Kodak"
+    ,"Option2":"Canon"
+    ,"Option3":"Nikon"
+    ,"Answer":"Kodak"
+    ,"Score": 30
+  },
+  {
+     "Question":"What British lead singer was born Farrokh Bulsara?"
+    ,"Option1":"M.I.A."
+    ,"Option2":"Freddie Mercury"
+    ,"Option3":"Zayn Malik"
+    ,"Answer":"Freddie Mercury"
+    ,"Score": 140
+  },
+  {
+     "Question":"How many members were in the American rock band The White Stripes?"
+    ,"Option1":"3"
+    ,"Option2":"4"
+    ,"Option3":"2"
+    ,"Answer":"2"
+    ,"Score": 20
+  },
+  {
+     "Question":"Who wrote “Waiting for Godot”?"
+    ,"Option1":"William Butler Yeats"
+    ,"Option2":"Oscar Wilde"
+    ,"Option3":"Samuel Beckett"
+    ,"Answer":"Samuel Beckett"
+    ,"Score": 20
+  },
+  {
+     "Question":"What gives red blood cells their color?"
+    ,"Option1":"Hemolysis"
+    ,"Option2":"Hemolin"
+    ,"Option3":"Hemoglobin"
+    ,"Answer":"Hemoglobin"
+    ,"Score": 80
+  },
+  {
+     "Question":"Which of the following names did the Daleks refer to the Doctor as?"
+    ,"Option1":"The Oncoming Storm"
+    ,"Option2":"Hurricane Doctor"
+    ,"Option3":"The Upcoming Storm"
+    ,"Answer":"The Oncoming Storm"
+    ,"Score": 40
+  },
+  {
+     "Question":"Richard Horvitz, who provided the voice of Zim, did NOT have a role in which of the following shows?"
+    ,"Option1":"Grim & Evil"
+    ,"Option2":"Rugrats"
+    ,"Option3":"Power Rangers"
+    ,"Answer":"Rugrats"
+    ,"Score": 40
+  },
+  {
+     "Question":"What year was \\"
+    ,"Option1":"1977"
+    ,"Option2":"1980"
+    ,"Option3":"1983"
+    ,"Answer":"1980"
+    ,"Score": 40
+  },
+  {
+     "Question":"On Invader Zim in the episode \\"
+    ,"Option1":"The Taco Song"
+    ,"Option2":"The Waffles song"
+    ,"Option3":"The Doom song"
+    ,"Answer":"The Doom song"
+    ,"Score": 140
+  },
+  {
+     "Question":"In the human body, what is the hallux?"
+    ,"Option1":"Index Finger"
+    ,"Option2":"Big Toe"
+    ,"Option3":"Belly Button"
+    ,"Answer":"Big Toe"
+    ,"Score": 70
+  }]
