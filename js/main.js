@@ -5,6 +5,7 @@ var answer3 = document.querySelector('#answer3')
 var answer5 = document.querySelector('#answer5')
 var answer6 = document.querySelector('#answer6')
 var answer7 = document.querySelector('#answer7')
+var ratio = document.querySelector('#goldenRatio')
 var quizInput = document.querySelectorAll('.quizInput')
 var activeQuestion = document.querySelector('#activeQuestion');
 var quizForm = document.querySelector('#quizForm')
@@ -14,7 +15,7 @@ var questCounter = 0 //counts the amount of questions
 
 //Scoring variables
 var scoreNum = 0
-var score = document.querySelector('#score')
+var score = document.querySelector('.score')
 score.innerHTML = 0 // shows the number at the beginning of the Quiz
 //End of Scoring 
 questNumber.innerHTML = "This is another test"
@@ -160,11 +161,16 @@ function endGame(questCounter) {
         // window.alert('done')
         mainQuiz[0].style.display = "none"
         mainQuiz[1].style.display = "none"
-        document.body.style.backgroundColor = "black"
+        // ratio.style.display = "none"
+        document.body.className = document.body.className.replace("triviaFirstbody","triviaSecondbody");
+        document.getElementById("goldenRatio").className = "goldenRatioRemoved"
+        // document.body.style.backgroundColor = "black"
         theEnd[0].style.display = "block"
         theEnd[1].style.display = "block"
-        document.body.classList.remove("designerBack")
-        document.body.className = "mainBackground"
+        // document.body.classList.remove("designerBack")
+
+        // document.body.classList.remove("triviaFirstbody")
+        // document.body.className = "triviaSecondbody"
         console.log('done')
             // window.location.href = "thankyou.html"
     }

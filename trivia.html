@@ -18,7 +18,7 @@
     <title>Nerds N Geeks</title>
 </head>
 
-<body>
+<body class="triviaFirstbody">
     <section class="triviaBackground">
     <!-- <section class="triviaBackground"> -->
         
@@ -31,12 +31,31 @@
             </ul>
         </div>
     </nav>
-    <section class="triviaMain">
-        <div class="col goldenRatio text-center">
 
-            <div class="float-right score mainQuiz"
+
+    <section class="triviaMain">
+        <div class="col goldenRatio text-center" id="goldenRatio">
+                 <!-- Beginning of ending -->
+     <div class="theEnd" style="display:none;">
+        
+        <!-- <iframe
+            src="https://player.vimeo.com/video/338250678?background=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0&amp;muted=0"
+            frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe> -->
+
+        <div class=" theEnd endBackground contenteditable">
+            <article id="endingText">
+Closed
+            </article>
+            <p>                Congrats you completed the game!!
+                FYI, the points doesn't matter!!</p>
+            <!-- <p><span class="score"></span></p> -->
+        </div>
+        
+        </div>
+        <!-- End of Ending -->
+            <div class="float-right scoreBackground mainQuiz"
                 style="height:150px;width:150px;margin-right:10px;display:none;">
-                <h3 class="text-center text-light" style="margin-top:10px;padding-top:35px;">score #<div id="score">
+                <h3 class="text-center text-light " style="margin-top:10px;padding-top:35px;">score #<div class="score">
                     </div>
                 </h3>
             </div>
@@ -75,11 +94,10 @@
                 </div>
             </div>
         </div>
+       
     </section>
 
-    <div class="vimeo-wrapper theEnd" style="display:none;"><iframe
-            src="https://player.vimeo.com/video/338250678?background=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;title=0&amp;muted=0"
-            frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
+   
     <!-- <div class="row text-center theEnd" style="display:none;">
     <div class="col">
         <H4 class="text-white darkShadow">congrats you finished the Quiz and guess what?!? The points don't matter</H4>
