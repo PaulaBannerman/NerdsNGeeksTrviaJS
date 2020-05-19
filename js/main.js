@@ -2,10 +2,14 @@ var questNumber = document.querySelector('#questNumber')
 var answer1 = document.querySelector('#answer1')
 var answer2 = document.querySelector('#answer2')
 var answer3 = document.querySelector('#answer3')
+var answer5 = document.querySelector('#answer5')
+var answer6 = document.querySelector('#answer6')
+var answer7 = document.querySelector('#answer7')
 var quizInput = document.querySelectorAll('.quizInput')
 var activeQuestion = document.querySelector('#activeQuestion');
 var quizForm = document.querySelector('#quizForm')
 var mainQuiz = document.querySelectorAll('.mainQuiz')
+var triviaQuestionBox = document.querySelector(".triviaQuestionBox")
 var questCounter = 0 //counts the amount of questions
 
 //Scoring variables
@@ -30,6 +34,7 @@ keepGoing.addEventListener("click", function(evt) {
     questCounter += 1
     endGame(questCounter)
     showAnswer.style.display = "none"
+    triviaQuestionBox.style.display = "flex"
         // submitButton.style.display = "block"
     submitButton.style.visibility = "visible"
     clearTheQuiz()
@@ -134,6 +139,9 @@ function displayQuiz() {
     answer1.innerHTML = questionsAsked[questCounter].option1
     answer2.innerHTML = questionsAsked[questCounter].option2
     answer3.innerHTML = questionsAsked[questCounter].option3
+    answer5.innerHTML = questionsAsked[questCounter].option1
+    answer6.innerHTML = questionsAsked[questCounter].option2
+    answer7.innerHTML = questionsAsked[questCounter].option3
     quizInput[0].value = questionsAsked[questCounter].option1
     quizInput[1].value = questionsAsked[questCounter].option2
     quizInput[2].value = questionsAsked[questCounter].option3
@@ -165,6 +173,7 @@ function endGame(questCounter) {
 
 function showtheAnswer(questCounter) {
     showAnswer.style.display = "block"
+    triviaQuestionBox.style.display = "none"
     answerText.innerHTML = questionsAsked[questCounter].realAnswer
 }
 
@@ -175,13 +184,13 @@ quizForm.addEventListener("submit", function(evt) {
     submitButton.style.visibility = "hidden"
 
     if (quizInput[0].checked && quizInput[0].value == questionsAsked[questCounter].realAnswer) {
-        console.log(`${questionsAsked[questCounter].realAnswer} value 3 is stated`)
+        console.log(`${questionsAsked[questCounter].realAnswer} value 1 is stated`)
         showtheAnswer(questCounter)
             // submitButton.className += " disabled"
         scoring(questionsAsked[questCounter].score)
 
     } else if (quizInput[1].checked && quizInput[1].value == questionsAsked[questCounter].realAnswer) {
-        console.log(`${questionsAsked[questCounter].realAnswer} value 3 is stated`)
+        console.log(`${questionsAsked[questCounter].realAnswer} value 2 is stated`)
         showtheAnswer(questCounter)
         console.log(questCounter) // testing to see if counter works
         scoring(questionsAsked[questCounter].score)
@@ -198,6 +207,49 @@ quizForm.addEventListener("submit", function(evt) {
     }
     newQuestion = questionsAsked[questCounter]
 
+})
+
+answer5.addEventListener("click", function(evt) {
+    // let counter = 1;
+    evt.preventDefault();
+    submitButton.style.visibility = "hidden"
+    console.log(evt.target.innerText)
+    if (evt.target.innerText == questionsAsked[questCounter].realAnswer){
+        showtheAnswer(questCounter)
+        scoring(questionsAsked[questCounter].score)
+    }else {
+        showtheAnswer(questCounter)
+
+    }
+    newQuestion = questionsAsked[questCounter]
+})
+answer6.addEventListener("click", function(evt) {
+    // let counter = 1;
+    evt.preventDefault();
+    submitButton.style.visibility = "hidden"
+    console.log(evt.target.innerText)
+    if (evt.target.innerText == questionsAsked[questCounter].realAnswer){
+        showtheAnswer(questCounter)
+        scoring(questionsAsked[questCounter].score)
+    }else {
+        showtheAnswer(questCounter)
+
+    }
+    newQuestion = questionsAsked[questCounter]
+})
+answer7.addEventListener("click", function(evt) {
+    // let counter = 1;
+    evt.preventDefault();
+    submitButton.style.visibility = "hidden"
+    console.log(evt.target.innerText)
+    if (evt.target.innerText == questionsAsked[questCounter].realAnswer){
+        showtheAnswer(questCounter)
+        scoring(questionsAsked[questCounter].score)
+    }else {
+        showtheAnswer(questCounter)
+
+    }
+    newQuestion = questionsAsked[questCounter]
 })
 
 startGame()

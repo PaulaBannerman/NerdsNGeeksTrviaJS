@@ -18,13 +18,13 @@
     <title>Nerds N Geeks</title>
 </head>
 
-<body class="triviaBackground">
-    <!-- <body class="designerBack"></body> -->
-    <nav
-        class="navigationBar navbar navbar-dark bg-dark navbar-expand-lg text-white navbar-expand-md navbar-expand-sm navbar-expand-xs">
-        <!-- <nav class="navbar navbar-dark bg-dark navbar-expand-lg text-white navbar-expand-md navbar-expand-sm navbar-expand-xs"> -->
+<body>
+    <section class="triviaBackground">
+    <!-- <section class="triviaBackground"> -->
+        
+    <nav class="navigationBar">
         <div>
-            <ul class="navbar-nav text-white">
+            <ul class="navbar-nav">
                 <div class="navbar-brand"><a href="index.html"><img class="w-50" src="./img/NNG_logo.png" alt=""></a><a
                         href="#" data-toggle="modal" data-target="#exampleModal"><img id="sgtfrog"
                             src="./img/Keroroflash.png" alt="" style="height:40px;margin-left:-20;"></a></div>
@@ -34,7 +34,7 @@
     <section class="triviaMain">
         <div class="col goldenRatio text-center">
 
-            <div class="float-right bg-danger align-middle rounded-circle score mainQuiz"
+            <div class="float-right score mainQuiz"
                 style="height:150px;width:150px;margin-right:10px;display:none;">
                 <h3 class="text-center text-light" style="margin-top:10px;padding-top:35px;">score #<div id="score">
                     </div>
@@ -46,14 +46,26 @@
                 <div class="card-body text-center">
                     <h4>Question # <span id="questNumber"> </span></h4>
                     <hr>
-                    <h3 id="activeQuestion"> </h3>
+                    <p id="activeQuestion"> </p>
+                   
                     <hr>
-                    <form id="quizForm">
+                    <div>
+                        <div class="triviaQuestionBox">
+                            <button class="questionButton" id="answer5"></button>
+                            <button class="questionButton" id="answer6"></button>
+                            <button class="questionButton" id="answer7"></button>
+                        </div>
+                      
                         <div class="answers" style="display:none;margin:0;padding:5px;">
-                            <h5>Answer: <span class="answerText"></span></h5><a class="btn-danger btn-lg w-75 keepGoing"
+                            <h5><span id="answerTitle">Answer: </span><span class="answerText"></span></h5><a class="btn-danger btn-lg w-75 keepGoing"
                                 href="#">Continue </a>
                         </div>
-                        <div class="form-group">
+                    </div>
+                    
+                    <form id="quizForm">
+                        
+                        <div class="form-group" style="display: none;">
+                            
                             <div class="checkbox"><input class="quizInput uk-radio" type="radio" name="quiz" value="testing"><label id="answer1" for="checkbox"></label></div>
                             <div class="checkbox"><input class="quizInput uk-radio" type="radio" name="quiz" value="testing"><label id="answer2" for="checkbox"></label></div>
                             <div class="checkbox"><input class="quizInput uk-radio" type="radio" name="quiz" value="testing"><label id="answer3" for="checkbox"></label></div>
@@ -80,6 +92,8 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
     <script src="./js/main.js"></script>
+
+</section>
 </body>
 
 </html>
